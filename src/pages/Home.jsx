@@ -1,3 +1,5 @@
 export default function Home(){
-    return <div>home content goes here</div>
+    return <section>
+        <div className="main">hey im home</div>
+    </section>
 }

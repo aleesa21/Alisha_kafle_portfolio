@@ -1,0 +1,21 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li{
+  list-style: none;
+}
+:root {
+  /* colors */
+  --pink: #e85a8a;
+  --bg: #0d0d0d;
+  --text: #f0f0f0;
+  --text-lighter: #aaaaaa;
+  --card: #181818;
+
+  /* spacing */
+  --section-padding: 120px 60px;
+  --btn-padding:  11px 26px;
+}
