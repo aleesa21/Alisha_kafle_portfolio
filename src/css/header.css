@@ -2,6 +2,9 @@ header {
   padding: 14px 20px;
   border-bottom:1px solid rgba(232,90,138,0.15);
   background: var(--bg);
+ position:sticky;
+ top:0;
+  z-index: 1;
 }
 .header {
   display: flex;
