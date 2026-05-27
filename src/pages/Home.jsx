@@ -15,8 +15,7 @@ export default function Home() {
               Frontend <br></br>Developer
             </h1>
             <p className="tagline">
-              Bringing digital visions to life through code and design is what
-              excites me most as a future IT professional.
+              Fresh out of college, full of frontend, ready to prove it
             </p>
             <div className="home_left_btns">
               <button className="view_my_work_btn">View My Work</button>
@@ -37,7 +36,9 @@ export default function Home() {
         </div>
 
         <div className="home_right">
-          <div className="home_img_container"></div>
+          <div className="home_img_container">
+            <img className="alisha_img"src="akbest.png" alt="alisha"></img>
+          </div>
         </div>
       </div>
     </section>
