@@ -54,6 +54,10 @@
     font-weight:700;
     margin-bottom:24px;
 }
+  .about_right{
+    display: flex;
+    align-items: center;
+  }
 .about_right p{
     font-size: 14px;
     color:#aaa;

@@ -1,0 +1,111 @@
+#skills{
+    padding:80px 20px;
+    background: var(--bg);
+    position: relative;
+    color:#aaa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   /* border:1px solid red; */
+    font-family: 'DM Sans', sans-serif;
+}
+.skill_blob_a{
+    position: absolute;
+    width:140px;
+    height: 140px;
+    bottom: 40px;
+    left:-30px;
+    border-radius: 50%;
+    background: rgba(120, 30, 70, 0.55);
+}
+.skill_blob_b{
+     position: absolute;
+    width:100px;
+    height: 100px;
+     top: 60px;
+    right:20px;
+    border-radius: 50%;
+    background: rgba(90, 20, 55, 0.45);
+}
+.my_skills{
+    font-size:36px;
+    color: var(--pink);
+    font-weight:700;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 24px;
+    z-index: 2;
+}
+.skills_card_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    gap:24px;
+    max-width:960px;
+    width:100%;
+    /* border:1px solid green; */
+}
+.skills_card{
+    border:1px solid rgba(232, 90, 138, 0.2);
+    background: var(--card);
+    border-radius:16px;
+    padding: 28px;
+    z-index: 2;
+}
+.skill_field{
+    font-size:15px;
+    font-weight:500;
+    color: var(--pink);
+    font-family: 'DM Sans', sans-serif;
+    margin-bottom: 20px;
+}
+.skill_name{
+    font-size: 12px;
+    color:#aaa;
+    margin-bottom: 6px;
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing: 1.5px;
+}
+.skill_bar{
+    width: 100%;
+    border-radius: 30px;
+    height:8px;
+    background:#2a2a2a;
+}
+.skill_fill{
+    height: 100%;
+    background: var(--pink);
+    border-radius: 30px;
+}
+.sp85{
+    width:85%;
+}
+.sp70{
+    width:70%;
+}
+.sp65{
+    width:65%;
+}
+.sp60{
+    width:60%;
+}
+.sp25{
+    width:25%;
+}
+.sp30{
+    width:30%;
+}
+.sp35{
+    width:35%;
+}
+.skill_pct{
+    text-align: right;
+    font-size: 11px;
+    margin-top: 4px;
+    color:var(--pink);
+}
+
+@media screen and (min-width: 768px) {
+    #skills{
+        padding: 120px 60px;
+    }
+}

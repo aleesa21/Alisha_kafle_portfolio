@@ -10,6 +10,7 @@ export default function About() {
           </div>
         </div>
         <div className="about_right">
+          <div>
           <div className="aboutme_text">About Me</div>
           <p>
             I'm Alisha Kafle, a BIM student who started learning web development
@@ -27,6 +28,7 @@ export default function About() {
             years of experience to offer — just dedication, a genuine hunger to
             grow, and someone who won't quit.
           </p>
+          </div>
         </div>
       </div>
     </section>
