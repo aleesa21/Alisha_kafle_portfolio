@@ -12,8 +12,10 @@ export default function Header(){
                    <a href="#project"> <li>project</li></a> 
                 </ul>
             </nav>
+            <a href="#contact">
             <button className="hireme-btn">Hire Me</button>
-            </div>
+            </a>
+            </div> 
         </header>
-    )
+    ) 
 }

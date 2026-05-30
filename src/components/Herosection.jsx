@@ -18,10 +18,11 @@ export default function Herosection(){
                 Fresh out of college, full of frontend, ready to prove it
               </p>
               <div className="home_left_btns">
-                <button className="view_my_work_btn">View My Work</button>
-                <button className="get_in_touch-btn">Get In Touch</button>
+
+                <a href="#project"><button className="view_my_work_btn">View My Work</button></a>
+               <a href="#contact"> <button className="get_in_touch-btn">Get In Touch</button></a>
               </div>
-              <div className="social_icons">
+              <div className="social_icons"> 
                 <a
                   href="https://www.linkedin.com/in/alisha-kafle/"
                   target="_blank"

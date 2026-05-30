@@ -19,7 +19,7 @@
 .blob_a {
   width: 200px;
   height: 200px;
-  border-radius: 50%;
+  border-radius: 50%;  
   background: rgba(120, 30, 70, 0.55);
   position: absolute;
   top: -116px;
@@ -116,6 +116,15 @@ h1{
     border:1.5px solid var(--pink);
     color:white;
     background: var(--pink);
+    transition: all 150ms ease-in-out;
+}
+.view_my_work_btn:hover{
+  background: #c03a6a;
+  border:1px solid #c03a6a;
+  transform: translateY(-2px);
+  font-weight: 500;
+  color:white;
+  /* box-shadow: 0 0 25px var(pink); */
 }
 .get_in_touch-btn{
   border-radius:30px;
@@ -125,7 +134,12 @@ h1{
     border:1.5px solid #777;
     background: inherit;
     color:white;
-
+    transition: all 200ms ease-in-out;
+}
+.get_in_touch-btn:hover{
+  transform: translateY(-2px);
+  border: 1px solid var(--pink);
+  color: var(--pink);
 }
 .social_icons{
     display: flex;
@@ -135,6 +149,11 @@ h1{
 .social_icons a{
     color:white;
     font-size: 28px;
+    transition: all 200ms ease-in-out;
+}
+.social_icons a:hover{
+  color:var(--pink);
+  transform: scale(1.25);
 }
 .home_img_container{
   background: transparent;

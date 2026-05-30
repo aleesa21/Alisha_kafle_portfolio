@@ -31,6 +31,13 @@ header {
   letter-spacing: 0.12em;
   font-weight: 500;
 }
+.nav-lists a{
+  transition: all 200ms ease-in-out;
+}
+.nav-lists a:hover{
+  color:var(--pink);
+  transform: translateY(-1px);
+}
 .hireme-btn{
     border-radius:30px;
     padding:7px 16px;
@@ -38,15 +45,23 @@ header {
     font-family: 'DM Sans', sans-serif;
     border:1px solid var(--pink);
     background: inherit;
-    color:var(--pink)
+    color:var(--pink);
+    transition: all 200ms ease-in-out;
+    /* overflow: hidden; */
 
+}
+.hireme-btn:hover{ 
+  transform: translateY(-2px);
+  border:1px solid #777;
+  color:beige;
+  /* box-shadow: 0 0 25px var(--pink); */
 }
 @media screen and (min-width: 768px) {
   .nav-lists {
     display: flex;
     gap:40px;
   }
-}
+}  
 @media screen and (min-width: 1024px) {
   header {
     padding: 16px 60px;
