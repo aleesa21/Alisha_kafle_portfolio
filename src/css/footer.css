@@ -1,0 +1,22 @@
+footer{
+    padding: 20px;
+    background: #0a0a0a;
+    color:#aaa;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_heading{
+
+    font-family:'Playfair Display', serif;
+    font-size: 16px;
+    color:var(--pink);
+    font-weight: 700;
+}
+@media screen and (min-width: 768px) {
+    footer{
+    padding: 28px 60px;
+    flex-direction: row;
+    }
+}

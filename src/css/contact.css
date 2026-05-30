@@ -1,0 +1,85 @@
+#contact{
+    background: var(--bg);
+    font-family: 'Dm Sans',serif;
+    padding: 80px 20px;
+    color:#aaa;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact_blob_a{
+    width:180px;
+    height:180px;
+    top:40px;
+    left:-40px;
+    background: rgba(120, 30, 70, 0.55);
+    border-radius: 50%;
+    position: absolute;
+}
+.contact_blob_b{
+    height: 120px;
+    width: 120px;
+    top:60px;
+    right:-20px;
+    background: rgba(90, 20, 55, 0.45);
+    position: absolute;
+    border-radius:50%;
+
+}
+
+.contact_items{
+max-width:520px;
+/* border:1px solid white; */
+z-index:2;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.contact_items_info{
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color:var(--pink);
+    margin-bottom: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.contact_items_desc{
+    font-size:13px;
+    margin-bottom: 36px;
+    font-weight: 300;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.send_email_btn{
+    border-radius:30px;
+    padding: 12px 28px;
+    display: flex;
+    align-items: center;
+    gap:8px;
+    border: 1px solid #777;
+    background:transparent;
+    color:#f0f0f0;
+    font-size:13px;
+    font-weight:500;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
+    transition: all 300ms ease-in-out;
+}
+.send_email_btn:hover{
+    border:1px solid var(--pink);
+    color:var(--pink);
+    transform: translateY(-2px);
+}
+
+@media screen and (min-width: 768px) {
+    #contact{
+        padding:120px 60px;
+    }
+}

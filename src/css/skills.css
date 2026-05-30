@@ -50,6 +50,10 @@
     border-radius:16px;
     padding: 28px;
     z-index: 2;
+    transition: all 300ms ease-in-out;
+}
+.skills_card:hover{
+    box-shadow: 0 0 25px rgba(232, 90, 138, 0.5);
 }
 .skill_field{
     font-size:15px;
