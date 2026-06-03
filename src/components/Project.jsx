@@ -16,7 +16,9 @@ export default function Project() {
               to showcase my projects and track my growth as a developer
             </div>
             {/* <div className="proj_tools_btns"></div> */}
+            <a href="https://alishakafle.com.np/" target="_blank" rel="noopener noreferrer">
             <button className="view_live_btn">View Live</button>
+            </a>
           </div>
         </div>
 
@@ -27,13 +29,14 @@ export default function Project() {
           <div className="proj_info">
             <div className="proj_title">Mini Mart</div>
             <div className="proj_desc">
-              Built with vanilla HTML, CSS & JavaScript — demonstrating
+              Built with vanilla HTML, CSS, JavaScript & React — demonstrating
               FakeStoreAPI integration, localStorage persistence, SPA
-              navigation, and full responsive design. A perfect learning
-              reference for React developers.
+              navigation, and full responsive design. 
             </div>
             {/* <div className="proj_tools_btns"></div> */}
-            <button className="view_live_btn">View Live</button>
+            <a href="https://ecom-react-project-ashen.vercel.app/" target="_blank">
+            <button className="view_live_btn">ongoing</button>
+            </a>
           </div>
         </div>
 
@@ -51,7 +54,9 @@ export default function Project() {
       reviews, and newsletter signup — built with HTML & Tailwind CSS.
             </div>
             {/* <div className="proj_tools_btns"></div> */}
+            <a href="https://aleesa21.github.io/Tailwind-website/" target="_blank">
             <button className="view_live_btn">View Live</button>
+            </a>
           </div>
         </div>
       </div>
