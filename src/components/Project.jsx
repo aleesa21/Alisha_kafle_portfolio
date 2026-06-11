@@ -34,7 +34,7 @@ export default function Project() {
               navigation, and full responsive design. 
             </div>
             {/* <div className="proj_tools_btns"></div> */}
-            <a href="https://ecom-react-project-ashen.vercel.app/" target="_blank">
+            <a href="https://ecom-react-project-woad.vercel.app/" target="_blank">
             <button className="view_live_btn">ongoing</button>
             </a>
           </div>
